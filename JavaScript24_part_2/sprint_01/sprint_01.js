@@ -11,6 +11,8 @@ console.log(arr_01, typeof arr_01);
 // Task 02
 // Создайте массив arr_02, который содержит два элемента - true, false. Выведите в консоль. 
 
+let arr_02 = [true, false];
+console.log(arr_02);
 
 // Task 03
 // Создайте массив arr_03 содержащий элементы  "Debian", 10, "Buster". Выведите в консоль. 

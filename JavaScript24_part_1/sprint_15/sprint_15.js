@@ -253,3 +253,5 @@ const t20 = () => {
 
 // тут напишите событие
 block20.addEventListener('dragstart', t20);
+
+// *******************

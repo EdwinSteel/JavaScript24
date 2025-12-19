@@ -28,7 +28,8 @@ console.log(arr_03);
 let arr_04 = ["Linux Mint", 19.1, "Tessa"];
 
 const t04 = () => {
-
+    document.querySelector('.out-4').textContent = arr_04.length;
+    console.log(arr_04);
 }
 
 document.querySelector('.b-4').addEventListener('click', t04);

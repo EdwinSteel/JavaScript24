@@ -22,6 +22,7 @@ console.log(arr_02);
 let arr_03 = ["Debian", 10, "Buster"];
 console.log(arr_03);
 
+
 // Task 04
 // Создан массив arr_04. Напишите функцию t04, которая выводит длину массива в .out-4. 
 
@@ -41,7 +42,8 @@ document.querySelector('.b-4').addEventListener('click', t04);
 let arr_05 = ["elementary", "OS", 5.0, "Hera"];
 
 const t05 = (arr) => {
-
+    console.log(arr_05);
+    return arr.length;
 }
 
 document.querySelector('.b-5').addEventListener('click', () => {
@@ -303,12 +305,7 @@ document.querySelector('.b-25').addEventListener('click', () => {
    document.querySelector('.out-25').textContent =  t25([44, 55]);
 });
 
-// ***********************************************************************
-// iTGid.info - курс JS24/2
-// Task 01
-// Task 02
-// Task 03
-// Task 04
+// ******* iTGid.info - курс JS24/2 *******
 // Task 05
 // Task 06
 // Task 07
@@ -330,4 +327,9 @@ document.querySelector('.b-25').addEventListener('click', () => {
 // Task 23
 // Task 24
 // Task 25
-// -- ok
+// ****************
+// Task 01 -- ok
+// Task 02 -- ok
+// Task 03 -- ok
+// Task 04 -- ok
+//  -- ok

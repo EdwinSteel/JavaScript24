@@ -188,7 +188,6 @@ i14.addEventListener("paste", t14);
 
 let i15 = document.querySelector('.i-15');
 
-// const t15 = () => {};
 const t15 = () => {
   i15.setAttribute('placeholder', 'cut');
 }

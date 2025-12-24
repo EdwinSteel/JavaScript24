@@ -2,3 +2,4 @@ JavaScript24_part_2
 ****************************
 
 sprint_01
+arrayName.length -- длина массива

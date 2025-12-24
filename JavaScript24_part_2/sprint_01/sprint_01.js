@@ -51,14 +51,15 @@ document.querySelector('.b-5').addEventListener('click', () => {
 });
 
 
-// Task 06
+// Task 06 -- ОТКЛЮЧИТЬ ПОВТОРНОЕ НАЖАТИЕ КНОПКИ !!!
 // Создан массив arr_06. Напишите функцию, которая добавляет в массив значение 90 и 60. Для проверки выведите массив в консоль.
 // Далее в курсе - если говорим о "добавлении" в массив имеется ввиду добавление в конец массива. 
 
 const arr_06 = [];
 
 const t06 = () => {
-
+    arr_06.push(90, 60);
+    console.log(arr_06);    
 }
 
 document.querySelector('.b-6').addEventListener('click', t06);
@@ -306,7 +307,7 @@ document.querySelector('.b-25').addEventListener('click', () => {
 });
 
 // ******* iTGid.info - курс JS24/2 *******
-// Task 06
+// Task 06 -- ДОРАБОТАТЬ !!!
 // Task 07
 // Task 08
 // Task 09

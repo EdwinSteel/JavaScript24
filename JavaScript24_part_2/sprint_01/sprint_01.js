@@ -84,9 +84,13 @@ document.querySelector('.b-7').addEventListener('click', t07);
 // Создан массив arr_08. Напишите функцию, которая добавляет в массив значение "Open" под индексом 1. И значение "Linux" под индексом 20. Для проверки выведите массив в консоль. Функция должна выводить длину массива после добавления элементов в .out-8.
 
 const arr_08 = ["OS", "Windows"];
+let out8 = document.querySelector('.out-8');
 
 const t08 = () => {
-
+    arr_08[1] = "Open";
+    arr_08[20] = "Linux";
+    console.log(arr_08);
+    out8.textContent = arr_08.length;
 }
 
 document.querySelector('.b-8').addEventListener('click', t08);

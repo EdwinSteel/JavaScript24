@@ -72,7 +72,9 @@ document.querySelector('.b-6').addEventListener('click', t06);
 const arr_07 = ["OS", "Windows"];
 
 const t07 = () => {
-
+    arr_07[1] = "Arch";
+    arr_07[2] = "Linux";
+    console.log(arr_07);
 }
 
 document.querySelector('.b-7').addEventListener('click', t07);
@@ -308,7 +310,6 @@ document.querySelector('.b-25').addEventListener('click', () => {
 });
 
 // ******* iTGid.info - курс JS24/2 *******
-// Task 07
 // Task 08
 // Task 09
 // Task 10
@@ -334,4 +335,5 @@ document.querySelector('.b-25').addEventListener('click', () => {
 // Task 04 -- ok
 // Task 05 -- ok
 // Task 06 -- ok
+// Task 07 -- ok
 //  -- ok

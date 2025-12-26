@@ -314,7 +314,6 @@ document.querySelector('.b-25').addEventListener('click', () => {
 });
 
 // ******* iTGid.info - курс JS24/2 *******
-// Task 08
 // Task 09
 // Task 10
 // Task 11
@@ -340,4 +339,5 @@ document.querySelector('.b-25').addEventListener('click', () => {
 // Task 05 -- ok
 // Task 06 -- ok
 // Task 07 -- ok
+// Task 08 -- ok
 //  -- ok

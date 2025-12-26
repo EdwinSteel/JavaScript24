@@ -58,6 +58,7 @@ document.querySelector('.b-5').addEventListener('click', () => {
 const arr_06 = [];
 
 const t06 = () => {
+    arr_06.length = 0; // очищаем массив при повторном нажатии
     arr_06.push(90, 60);
     console.log(arr_06);    
 }

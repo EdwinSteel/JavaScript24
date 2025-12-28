@@ -118,7 +118,8 @@ document.querySelector('.b-9').addEventListener('click', t09);
 const arr_10 = ["CentOS", "Mandriva Linux", "EduLinux", "Fedora", "Mageia"];
 
 const t10 = () => {
-
+    arr_10.pop();
+    console.log(arr_10);
 }
 
 document.querySelector('.b-10').addEventListener('click', t10);
@@ -317,7 +318,6 @@ document.querySelector('.b-25').addEventListener('click', () => {
 });
 
 // ******* iTGid.info - курс JS24/2 *******
-// Task 10
 // Task 11
 // Task 12
 // Task 13
@@ -343,4 +343,5 @@ document.querySelector('.b-25').addEventListener('click', () => {
 // Task 07 -- ok
 // Task 08 -- ok
 // Task 09 -- ok
+// Task 10 -- ok
 //  -- ok

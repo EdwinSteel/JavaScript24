@@ -131,7 +131,11 @@ document.querySelector('.b-10').addEventListener('click', t10);
 const arr_11 = ["SUSE", "Unbreakable Linux", "Yellow Dog", "Slackware"];
 
 const t11 = () => {
-
+    let i11 = document.querySelector('.i-11').value;
+    
+    arr_11.unshift(i11);
+    
+    console.log(arr_11);    
 }
 
 document.querySelector('.b-11').addEventListener('click', t11);
@@ -318,7 +322,6 @@ document.querySelector('.b-25').addEventListener('click', () => {
 });
 
 // ******* iTGid.info - курс JS24/2 *******
-// Task 11
 // Task 12
 // Task 13
 // Task 14
@@ -344,4 +347,5 @@ document.querySelector('.b-25').addEventListener('click', () => {
 // Task 08 -- ok
 // Task 09 -- ok
 // Task 10 -- ok
+// Task 11 -- ok
 //  -- ok

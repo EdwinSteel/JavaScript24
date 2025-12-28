@@ -166,13 +166,24 @@ const t13 = () => {
 document.querySelector('.b-13').addEventListener('click', t13);
 
 
-// Task 14
+// Task 14 -- В РАБОТЕ !!!!
 // Создан массив arr_14. Напишите функцию t14. Функция выполняется по клику на кнопку. Функция выводит значения массива arr_14 в .out-14 с помощью цикла. Разделитель значений - знак подчеркивания.
 
 const arr_14 = [19.1, 20.04, 20.1, 21.04];
 
 const t14 = () => {
+    console.log(arr_14[0] , typeof arr_14[0]);
+    let out14 = document.querySelector('.out-14');
+    let result = '';
 
+    for (let i = 0; i < arr_14.length; i++) {
+        
+        result += arr_14[i] + '_';
+
+        console.log(result);
+        
+        out14.textContent = result;
+        }
 }
 
 document.querySelector('.b-14').addEventListener('click', t14);

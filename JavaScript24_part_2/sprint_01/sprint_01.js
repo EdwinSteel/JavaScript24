@@ -147,7 +147,8 @@ document.querySelector('.b-11').addEventListener('click', t11);
 const arr_12 = ["Slackware", "Почему", "Патрик", "Бог"];
 
 const t12 = () => {
-
+    arr_12.shift();
+    console.log(arr_12);
 }
 
 document.querySelector('.b-12').addEventListener('click', t12);
@@ -322,7 +323,6 @@ document.querySelector('.b-25').addEventListener('click', () => {
 });
 
 // ******* iTGid.info - курс JS24/2 *******
-// Task 12
 // Task 13
 // Task 14
 // Task 15
@@ -348,4 +348,5 @@ document.querySelector('.b-25').addEventListener('click', () => {
 // Task 09 -- ok
 // Task 10 -- ok
 // Task 11 -- ok
+// Task 12 -- ok
 //  -- ok

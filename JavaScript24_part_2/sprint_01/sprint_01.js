@@ -166,7 +166,7 @@ const t13 = () => {
 document.querySelector('.b-13').addEventListener('click', t13);
 
 
-// Task 14 -- В РАБОТЕ !!!!
+// Task 14
 // Создан массив arr_14. Напишите функцию t14. Функция выполняется по клику на кнопку. Функция выводит значения массива arr_14 в .out-14 с помощью цикла. Разделитель значений - знак подчеркивания.
 
 const arr_14 = [19.1, 20.04, 20.1, 21.04];
@@ -174,28 +174,38 @@ const arr_14 = [19.1, 20.04, 20.1, 21.04];
 const t14 = () => {
     console.log(arr_14[0] , typeof arr_14[0]);
     let out14 = document.querySelector('.out-14');
-    let result = '';
+    let result14 = '';
 
     for (let i = 0; i < arr_14.length; i++) {
         
-        result += arr_14[i] + '_';
+        result14 += arr_14[i] + '_';
 
-        console.log(result);
+        console.log(result14);
         
-        out14.textContent = result;
+        out14.textContent = result14;
         }
 }
 
 document.querySelector('.b-14').addEventListener('click', t14);
 
 
-// Task 15
+// Task 15 -- ERROR !!!!
 // Создан массив arr_15. Напишите функцию t15. Функция выполняется по клику на кнопку. Функция выводит только четные значения массива arr_15 в .out-15 с помощью цикла. Разделитель значений - знак подчеркивания.
 
 const arr_15 = [22, 33, 44, 55, 65, 66, 67, 68];
 
 const t15 = () => {
+    let result15 = '';
 
+    for (let i = 0; i < arr_15.length; i++) {
+        // if (arr[i] % 2 === 0) {
+        //     result15 = '2222';
+        // } else {
+        //     result15 = '11111111';
+        // }
+    }
+    
+    document.querySelector('.out-15').textContent = result15;
 }
 
 document.querySelector('.b-15').addEventListener('click', t15);
@@ -334,7 +344,6 @@ document.querySelector('.b-25').addEventListener('click', () => {
 });
 
 // ******* iTGid.info - курс JS24/2 *******
-// Task 14
 // Task 15
 // Task 16
 // Task 17
@@ -360,4 +369,5 @@ document.querySelector('.b-25').addEventListener('click', () => {
 // Task 11 -- ok
 // Task 12 -- ok
 // Task 13 -- ok
+// Task 14 -- ok
 //  -- ok

@@ -160,7 +160,7 @@ document.querySelector('.b-12').addEventListener('click', t12);
 const arr_13 = ["Slackware", "Slax", "Porteus", "Alpine Linux"];
 
 const t13 = () => {
-
+    document.querySelector('.out-13').textContent = arr_13.join('_');
 }
 
 document.querySelector('.b-13').addEventListener('click', t13);

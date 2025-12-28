@@ -103,7 +103,10 @@ document.querySelector('.b-8').addEventListener('click', t08);
 const arr_09 = [1111, 2222];
 
 const t09 = () => {
-
+    let i9 = +document.querySelector('.i-9').value;
+     
+    arr_09.push(i9);
+    console.log(arr_09);
 }
 
 document.querySelector('.b-9').addEventListener('click', t09);
@@ -314,7 +317,6 @@ document.querySelector('.b-25').addEventListener('click', () => {
 });
 
 // ******* iTGid.info - курс JS24/2 *******
-// Task 09
 // Task 10
 // Task 11
 // Task 12
@@ -340,4 +342,5 @@ document.querySelector('.b-25').addEventListener('click', () => {
 // Task 06 -- ok
 // Task 07 -- ok
 // Task 08 -- ok
+// Task 09 -- ok
 //  -- ok

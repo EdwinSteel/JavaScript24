@@ -219,7 +219,7 @@ const t16 = () => {
     let result16 = '';
 
     for (let i = 0; i < arr_16.length; i + 2) {
-        result16 = arr_16[2];
+        result16 = arr_16[i];
         return result16;
     }
     

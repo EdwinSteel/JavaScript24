@@ -209,8 +209,7 @@ const t15 = () => {
 document.querySelector('.b-15').addEventListener('click', t15);
 
 
-
-// Task 16 -- ERROR !!!!
+// Task 16
 // Создан массив arr_16. Напишите функцию t16. Функция выполняется по клику на кнопку. Функция выводит значения с четными индексом из массива arr_16 в .out-16 с помощью цикла. Разделитель значений - знак подчеркивания.
 
 const arr_16 = ["Warty Warthog", "Hoary Hedgehog", "Breezy Badger", "Dapper Drake"];
@@ -218,12 +217,10 @@ const arr_16 = ["Warty Warthog", "Hoary Hedgehog", "Breezy Badger", "Dapper Drak
 const t16 = () => {
     let result16 = '';
 
-    for (let i = 0; i < arr_16.length; i + 2) {
-        result16 = arr_16[i];
-        return result16;
+    for (let i = 0; i < arr_16.length; i = i + 2) {
+        result16 += arr_16[i] + '_';
     }
     
-    // result16 = arr_16[0];
     document.querySelector('.out-16').textContent = result16;
 }
 
@@ -350,7 +347,6 @@ document.querySelector('.b-25').addEventListener('click', () => {
 });
 
 // ******* iTGid.info - курс JS24/2 *******
-// Task 16
 // Task 17
 // Task 18
 // Task 19
@@ -376,4 +372,5 @@ document.querySelector('.b-25').addEventListener('click', () => {
 // Task 13 -- ok
 // Task 14 -- ok
 // Task 15 -- ok
+// Task 16 -- ok
 //  -- ok

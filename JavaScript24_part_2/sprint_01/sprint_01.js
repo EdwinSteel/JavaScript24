@@ -235,7 +235,17 @@ document.querySelector('.b-16').addEventListener('click', t16);
 const arr_17 = ["Edgy Eft", "Feisty Fawn", "Gutsy Gibbon"];
 
 const t17 = () => {
+    let result17 = '';
+    for (let i = arr_17.length - 1; i < arr_17.length; i = i - 1) {
+        console.log(i);
+        // const element17 = arr_17[i];
+    }
+    // console.log(arr_17.length - 1);
 
+    // console.log(element17);
+    // console.log(result17);
+    document.querySelector('.out-17').textContent = result17;
+    // .slice(0, -1)
 }
 
 document.querySelector('.b-17').addEventListener('click', t17);

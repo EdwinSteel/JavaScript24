@@ -236,16 +236,14 @@ const arr_17 = ["Edgy Eft", "Feisty Fawn", "Gutsy Gibbon"];
 
 const t17 = () => {
     let result17 = '';
-    for (let i = arr_17.length - 1; i < arr_17.length; i = i - 1) {
+    for (let i = arr_17.length - 1; i >= 0; i = i - 1) {
         console.log(i);
-        // const element17 = arr_17[i];
+        result17 += arr_17[i] + '_';
     }
-    // console.log(arr_17.length - 1);
-
-    // console.log(element17);
-    // console.log(result17);
-    document.querySelector('.out-17').textContent = result17;
-    // .slice(0, -1)
+    
+    console.log(arr_17);
+    console.log(result17.slice(0, -1));
+    document.querySelector('.out-17').textContent = result17.slice(0, -1); 
 }
 
 document.querySelector('.b-17').addEventListener('click', t17);
@@ -357,7 +355,6 @@ document.querySelector('.b-25').addEventListener('click', () => {
 });
 
 // ******* iTGid.info - курс JS24/2 *******
-// Task 17
 // Task 18
 // Task 19
 // Task 20
@@ -383,4 +380,5 @@ document.querySelector('.b-25').addEventListener('click', () => {
 // Task 14 -- ok
 // Task 15 -- ok
 // Task 16 -- ok
+// Task 17 -- ok
 //  -- ok

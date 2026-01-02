@@ -249,29 +249,33 @@ const t17 = () => {
 document.querySelector('.b-17').addEventListener('click', t17);
 
 
-// Task 18 -- В РАБОТЕ !!!
+// Task 18
 // Создан массив arr_18. Функция должна вывести значения из массива с индексом 0, 1, 5, 7 в .out-18. Разделитель  - пробел (под пробелом мы понимаем один пробел получаемый нажатием кнопки Space на клавиатуре).
 
 const arr_18 = ["Hardy", "Heron", "Intrepid", "Ibex", "Jaunty", "Jackalope", "Lucid", "Lynx", "Maverick"];
 
 const t18 = () => {
-    const arr_18_2 = [0, 1, 5, 7];
+    const arr_18_2 = [0, 1, 5, 7]; // original
+    // const arr_18_2 = [2, 3, 8]; // test
     let result18 = '';
+    let out18 = document.querySelector('.out-18');
     
     for (let i = 0; i < arr_18_2.length; i++) {
-        const element18 = arr_18_2[i];
-        console.log(element18);
+        const elem_18_2 = arr_18_2[i];
+        console.log(elem_18_2);
 
-        for (let i = 0; i < array.length; i++) {
-            const element = array[i];
-            
+        for (let i = elem_18_2; i < arr_18.length; i++) {
+            if (i === elem_18_2) {
+                result18 += arr_18[i] + ' ';
+                // console.log(result18);
+            }
         }
     }
-    
-    // result18 = arr_18[8];
-    console.log(arr_18);
-    console.log(result18);
 
+    console.log(arr_18);
+    // console.log(result18);
+
+    out18.textContent = result18;
 }
 
 document.querySelector('.b-18').addEventListener('click', t18);
@@ -399,7 +403,6 @@ document.querySelector('.b-25').addEventListener('click', () => {
 });
 
 // ******* iTGid.info - курс JS24/2 *******
-// Task 18
 // ****************
 // Task 01 -- ok
 // Task 02 -- ok
@@ -418,6 +421,7 @@ document.querySelector('.b-25').addEventListener('click', () => {
 // Task 15 -- ok
 // Task 16 -- ok
 // Task 17 -- ok
+// Task 18 -- ok
 // Task 19 -- ok
 // Task 20 -- ok
 // Task 21 -- ok

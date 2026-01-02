@@ -347,17 +347,11 @@ document.querySelector('.b-22').addEventListener('click', () => {
 // Функция получает два массива как аргументы. Сравнивает их длину. Если длины совпадают - возвращает true, если не совпадают - false.
 
 const t23 = (m1, m2) => {
-    // let out23 = document.querySelector('.out-23');
-    // console.log(m1, typeof m1);
-    // console.log(m2, typeof m2);
-    // console.log(m1.length, typeof m1.length);
-    // document.querySelector('.out-23').textContent = (m1 === m2) ? return true : return false;
-    
-    // if (m1.length === m2.length) {
-    //     out23.textContent = true;
-    // } else {
-    //     out23.textContent = false;
-    // }
+    if (m1.length === m2.length) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
 document.querySelector('.b-23').addEventListener('click', () => {
@@ -400,7 +394,6 @@ document.querySelector('.b-25').addEventListener('click', () => {
 // ******* iTGid.info - курс JS24/2 *******
 // Task 18
 // Task 19
-// Task 23
 // Task 24
 // Task 25
 // ****************
@@ -424,4 +417,5 @@ document.querySelector('.b-25').addEventListener('click', () => {
 // Task 20 -- ok
 // Task 21 -- ok
 // Task 22 -- ok
+// Task 23 -- ok
 //  -- ok

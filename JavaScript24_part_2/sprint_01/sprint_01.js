@@ -294,7 +294,7 @@ document.querySelector('.b-19').addEventListener('click', t19);
 const arr_20 = [];
 
 const t20 = () => {
-
+    document.querySelector('.out-20').innerHTML = arr_20[100];
 }
 
 document.querySelector('.b-20').addEventListener('click', t20);
@@ -373,7 +373,6 @@ document.querySelector('.b-25').addEventListener('click', () => {
 // ******* iTGid.info - курс JS24/2 *******
 // Task 18
 // Task 19
-// Task 20
 // Task 21
 // Task 22
 // Task 23
@@ -397,4 +396,5 @@ document.querySelector('.b-25').addEventListener('click', () => {
 // Task 15 -- ok
 // Task 16 -- ok
 // Task 17 -- ok
+// Task 20 -- ok
 //  -- ok

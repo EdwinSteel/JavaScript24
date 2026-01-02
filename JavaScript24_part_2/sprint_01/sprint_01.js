@@ -282,7 +282,14 @@ document.querySelector('.b-18').addEventListener('click', t18);
 const arr_19 = [11, 22, 33];
 
 const t19 = () => {
+    let out19 = document.querySelector('.out-19');
+    let result19 = '';
 
+    for (let i = 0; i < arr_19.length; i++) {
+        result19 += i + ' ' + ':' + ' ' + arr_19[i] + '<br>';
+    }
+
+    out19.innerHTML = result19;
 }
 
 document.querySelector('.b-19').addEventListener('click', t19);
@@ -393,7 +400,6 @@ document.querySelector('.b-25').addEventListener('click', () => {
 
 // ******* iTGid.info - курс JS24/2 *******
 // Task 18
-// Task 19
 // ****************
 // Task 01 -- ok
 // Task 02 -- ok
@@ -412,6 +418,7 @@ document.querySelector('.b-25').addEventListener('click', () => {
 // Task 15 -- ok
 // Task 16 -- ok
 // Task 17 -- ok
+// Task 19 -- ok
 // Task 20 -- ok
 // Task 21 -- ok
 // Task 22 -- ok

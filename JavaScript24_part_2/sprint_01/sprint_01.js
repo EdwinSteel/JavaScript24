@@ -177,13 +177,10 @@ const t14 = () => {
     let result14 = '';
 
     for (let i = 0; i < arr_14.length; i++) {
-        
         result14 += arr_14[i] + '_';
-
         console.log(result14);
-        
         out14.textContent = result14;
-        }
+    }
 }
 
 document.querySelector('.b-14').addEventListener('click', t14);

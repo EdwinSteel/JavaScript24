@@ -401,32 +401,3 @@ const t25 = (arr) => {
 document.querySelector('.b-25').addEventListener('click', () => {
    document.querySelector('.out-25').textContent =  t25([44, 55]);
 });
-
-// ******* iTGid.info - курс JS24/2 *******
-// ****************
-// Task 01 -- ok
-// Task 02 -- ok
-// Task 03 -- ok
-// Task 04 -- ok
-// Task 05 -- ok
-// Task 06 -- ok
-// Task 07 -- ok
-// Task 08 -- ok
-// Task 09 -- ok
-// Task 10 -- ok
-// Task 11 -- ok
-// Task 12 -- ok
-// Task 13 -- ok
-// Task 14 -- ok
-// Task 15 -- ok
-// Task 16 -- ok
-// Task 17 -- ok
-// Task 18 -- ok
-// Task 19 -- ok
-// Task 20 -- ok
-// Task 21 -- ok
-// Task 22 -- ok
-// Task 23 -- ok
-// Task 24 -- ok
-// Task 25 -- ok
-//  -- ok

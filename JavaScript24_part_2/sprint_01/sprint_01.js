@@ -322,7 +322,12 @@ const t21 = () => {
     };
 
     // console.log(arr_21);
-    document.querySelector('.out-21').textContent = arr_21;
+    document.querySelector('.out-21').textContent = arr_21; // моя ошибка
+    
+    document.querySelector('.out-21').textContent = arr_21.join('_'); // исправлено.
+    
+
+
 }
 
 document.querySelector('.b-21').addEventListener('click', t21);

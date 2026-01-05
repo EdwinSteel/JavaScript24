@@ -398,3 +398,8 @@ const t25 = (arr) => {
 document.querySelector('.b-25').addEventListener('click', () => {
    document.querySelector('.out-25').textContent =  t25([44, 55]);
 });
+
+// *********************
+// В этих тасках ошибки после проверки.
+// Task 6
+// Task 21

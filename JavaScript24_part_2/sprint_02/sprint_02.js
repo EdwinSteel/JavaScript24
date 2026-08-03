@@ -8,10 +8,12 @@
 // Array(10)
 
 const t01 = arr => {
+    
 
 };
 
 document.querySelector('.b-1').addEventListener('click', () => {
+    // document.querySelector('.out-1').textContent = t01([4,5]);
     document.querySelector('.out-1').textContent = t01([4,5]);
 });
 

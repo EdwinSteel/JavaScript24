@@ -8,14 +8,13 @@
 // Array(10)
 
 const t01 = arr => {
-    // 03/08/2026 start
-
+    return Array.isArray(arr)
 };
 
 document.querySelector('.b-1').addEventListener('click', () => {
     // document.querySelector('.out-1').textContent = t01([4,5]);
-    document.querySelector('.out-1').textContent = t01([4,5]);
-});
+    document.querySelector('.out-1').textContent = t01(Array(10));
+}); // Все примеры проверил
 
 
 // Task 02
@@ -329,7 +328,7 @@ const t25 = () => {
 document.querySelector('.b-25').addEventListener('click', t25);
 
 // *******************************************
-// Task 01
+// Task 01 -- ok
 // Task 02
 // Task 03
 // Task 04

@@ -11,8 +11,7 @@ const t01 = arr => {
     return Array.isArray(arr)
 };
 
-document.querySelector('.b-1').addEventListener('click', () => {
-    // document.querySelector('.out-1').textContent = t01([4,5]);
+document.querySelector('.b-1').addEventListener('click', () => {    
     document.querySelector('.out-1').textContent = t01(Array(10));
 }); // Все примеры проверил
 
@@ -23,6 +22,8 @@ document.querySelector('.b-1').addEventListener('click', () => {
 const arr_02 = [19, 17, 22, 47, 15];
 
 const t02 = () => {
+    let out2 = document.querySelector('.out-2');
+    out2.textContent = 'TEST'
  
 }
 

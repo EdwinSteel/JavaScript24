@@ -22,8 +22,10 @@ document.querySelector('.b-1').addEventListener('click', () => {
 const arr_02 = [19, 17, 22, 47, 15];
 
 const t02 = () => {
+    // let inp2 = document.querySelector('.i-2'); -- ???????
+    console.log(inp2.value, typeof inp2);
     let out2 = document.querySelector('.out-2');
-    out2.textContent = 'TEST'
+    // out2.textContent = 'TEST'
  
 }
 
